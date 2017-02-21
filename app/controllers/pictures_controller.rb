@@ -1,4 +1,4 @@
-class PictureController < ApplicationController
+class PicturesController < ApplicationController
   before_action :authenticate_user!
 
   def index
@@ -6,7 +6,7 @@ class PictureController < ApplicationController
   end
 
   def new
-    @picture = current_user.picture.new
+    @picture = current_user.pictures.new
   end
 
   def create

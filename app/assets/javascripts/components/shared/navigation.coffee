@@ -42,15 +42,31 @@
                     className: 'caret'
                 React.DOM.ul
                   className: 'dropdown-menu'
-                  React.DOM.li null
+                  React.DOM.li
+                    className: ''
+                    React.DOM.a
+                      className: ''
+                      href: @props.pictures_path
+                      'My Pictures'
+                  React.DOM.li
+                    className: ''
                     React.DOM.a
                       className: ''
                       href: @props.edit_user_path
                       'Manage Account'
                   React.DOM.li
                     className: 'divider'
-                  React.DOM.li null
+                  React.DOM.li
+                    className: ''
                     React.DOM.a
                       className: ''
                       href: @props.sign_out_path
+                      'data-method': 'delete'
                       'Sign Out'
+            else
+              React.DOM.li
+                className: ''
+                React.DOM.a
+                  className: 'ii'
+                  href:      @props.sign_in_path
+                  'Login'

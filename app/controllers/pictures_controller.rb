@@ -6,10 +6,10 @@ class PicturesController < ApplicationController
   end
 
   def new
-    @picture = current_user.pictures.new
   end
 
   def create
-    @picture = current_user.pictures.new(picture_params)
+    binding.pry
+    #@picture = current_user.pictures.new(picture_params)
   end
 end

@@ -6,4 +6,4 @@
         className: 'new-picture btn btn-primary'
         href: @props.new_picture_path
         'New Picture'
-      React.createElement ImageList
+      React.createElement PictureList

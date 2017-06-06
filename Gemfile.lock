@@ -58,6 +58,9 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
+    colorbox-rails (0.1.2)
+      jquery-rails
+      rails (>= 3.1.1)
     concurrent-ruby (1.0.4)
     connection_pool (2.2.1)
     database_cleaner (1.5.3)
@@ -89,8 +92,6 @@ GEM
     json_spec (1.1.4)
       multi_json (~> 1.0)
       rspec (>= 2.0, < 4.0)
-    lightbox2-rails (2.8.2.1)
-      railties (>= 3.1)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -211,6 +212,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass (~> 3.3.7)
   coffee-rails (~> 4.2)
+  colorbox-rails
   database_cleaner (~> 1.5.3)
   devise (~> 4.2.0)
   factory_girl_rails (~> 4.8)
@@ -218,7 +220,6 @@ DEPENDENCIES
   haml (~> 4.0.7)
   jquery-rails
   json_spec (~> 1.1.4)
-  lightbox2-rails
   listen
   pg (~> 0.18)
   pry (~> 0.10.4)

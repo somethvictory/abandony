@@ -3,9 +3,8 @@
     React.DOM.div
       className: 'col-xs-12 col-md-4 col-lg-3 picture-item'
       React.DOM.a
-        className: 'link'
+        className: 'gallery'
         href: @props.picture
-        'data-lightbox': 'hello-1'
         React.DOM.img
           className: 'picture'
           src: @props.picture

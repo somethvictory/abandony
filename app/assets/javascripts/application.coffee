@@ -2,7 +2,7 @@
 #= require jquery_ujs
 
 #= require bootstrap-sprockets
-#= require lightbox
+#= require colorbox-rails
 
 #= require react
 #= require react_ujs
